@@ -2,13 +2,16 @@ Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
 It also comes with the FlugirDot cursors, based on the GoogleDot cursors.
 
+I recommend using the Papirus icons, so I added them to the Flugir Budgie installation script.
+
 To use it in Snap applications, you need to install the Snap version of the theme.
 
 <a href="https://snapcraft.io/flugir-budgie-theme">
   <img alt="Get it from the Snap Store" src="https://snapcraft.io/en/dark/install.svg" />
 </a>
 
-Currently, you also need to use these 2 commands to connect the theme with the currently installed applications, reusing the commands if you install new applications.
+Unfortunately, you still need to use these commands to use the theme in installed Snap applications.
+And reuse them when installing new Snap applications.
 
 ``` for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:gtk-3-themes; done ```
 
