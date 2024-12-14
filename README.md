@@ -7,9 +7,7 @@ But I also included the icons that come with Ubuntu Budgie, Pocillo and TelaBudg
 
 To use it in Snap applications, you need to install the Snap version of the theme.
 
-<a href="https://snapcraft.io/flugir-budgie-theme">
-  <img alt="Get it from the Snap Store" src="https://snapcraft.io/en/dark/install.svg" />
-</a>
+<iframe src="https://snapcraft.io/flugir-budgie-theme/embedded?button=black&screenshot=true" frameborder="0" width="100%" height="670px" style="border: 1px solid #CCC; border-radius: 2px;"></iframe>
 
 Unfortunately, you still need to use these commands to use the theme in installed Snap applications.
 And reuse them when installing new Snap applications.
