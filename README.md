@@ -5,7 +5,6 @@ It also comes with the FlugirDot cursors, based on the GoogleDot cursors.
 ![Snapshot_2024-12-09_16-12-38](https://github.com/user-attachments/assets/1c8be0ac-7baa-407d-a803-b570cdb8f365)
 
 I recommend using the Papirus icons, so I added them to the Flugir Budgie installation script.
-But I also included the icons that come with Ubuntu Budgie, Pocillo and TelaBudgie.
 
 To use it in Snap applications, you need to install the Snap version of the theme.
 
