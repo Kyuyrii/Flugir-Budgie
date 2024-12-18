@@ -2,7 +2,7 @@ Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
 It also comes with the FlugirDot cursors, based on the GoogleDot cursors.
 
-If you want to install via terminal, just use this command:
+If you want to install the latest version via terminal, just use this command:
 
 ``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.5/WFB-0.5.zip && unzip WFB-0.5.zip && ./FBF-0.5/IFB.sh ```
 
