@@ -4,7 +4,7 @@ It also comes with the FlugirDot cursors, based on the GoogleDot cursors.
 
 If you want to install the latest version via terminal, just use this command:
 
-``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.5/WFB-0.5.zip && unzip WFB-0.5.zip && ./FBF-0.5/IFB.sh ```
+``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.6/WFB-0.6.zip && unzip WFB-0.6.zip && ./FBF-0.6/IFB.sh ```
 
 ![Snapshot_2024-12-18_05-37-01](https://github.com/user-attachments/assets/b45f5cf0-be63-4afb-8d59-f7eb9be1facf)
 
@@ -30,3 +30,5 @@ Qogir theme: https://github.com/vinceliuice/Qogir-theme
 GoogleDot cursors: https://github.com/ful1e5/Google_Cursor
 
 Fluent theme: https://github.com/vinceliuice/Fluent-gtk-theme
+
+Arc theme of Ubuntu repository.
