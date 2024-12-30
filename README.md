@@ -1,6 +1,6 @@
 Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
-It also comes with the FlugirDot cursors, based on the GoogleDot cursors.
+It also comes with the FlugirDot cursors, based on the GoogleDot cursors, and Papirus icons using Papirus Yaru folders.
 
 If you want to install the version 0.7 via terminal, just use this command:
 
@@ -23,10 +23,17 @@ And reuse them when installing new Snap applications.
 
 Here are the links to the projects I used to create the Flugir theme:
 
-Qogir theme: https://github.com/vinceliuice/Qogir-theme
+Qogir theme:
+https://github.com/vinceliuice/Qogir-theme
 
-GoogleDot cursors: https://github.com/ful1e5/Google_Cursor
+GoogleDot cursors:
+https://github.com/ful1e5/Google_Cursor
 
-Fluent theme: https://github.com/vinceliuice/Fluent-gtk-theme
+Fluent theme:
+https://github.com/vinceliuice/Fluent-gtk-theme
 
 Arc theme of Ubuntu repository.
+
+Papirus:
+https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+https://github.com/PapirusDevelopmentTeam/papirus-folders
