@@ -19,9 +19,7 @@ To use it in Snap applications, you need to install the Snap version of the them
 Unfortunately, you still need to use these commands to use the theme in installed Snap applications.
 And reuse them when installing new Snap applications.
 
-``` for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:gtk-3-themes; done ```
-
-``` for i in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:icon-themes; done ```
+``` for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:gtk-3-themes; done && for i in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:icon-themes; done ```
 
 Here are the links to the projects I used to create the Flugir theme:
 
