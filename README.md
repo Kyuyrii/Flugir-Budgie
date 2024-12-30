@@ -36,4 +36,5 @@ Arc theme of Ubuntu repository.
 
 Papirus:
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+
 https://github.com/PapirusDevelopmentTeam/papirus-folders
