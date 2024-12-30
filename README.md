@@ -24,17 +24,21 @@ And reuse them when installing new Snap applications.
 Here are the links to the projects I used to create the Flugir theme:
 
 Qogir theme:
+
 https://github.com/vinceliuice/Qogir-theme
 
 GoogleDot cursors:
+
 https://github.com/ful1e5/Google_Cursor
 
 Fluent theme:
+
 https://github.com/vinceliuice/Fluent-gtk-theme
 
 Arc theme of Ubuntu repository.
 
 Papirus:
+
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
 https://github.com/PapirusDevelopmentTeam/papirus-folders
