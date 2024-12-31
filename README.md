@@ -2,9 +2,9 @@ Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
 It also comes with the FlugirDot cursors, based on the GoogleDot cursors, and Papirus icons using Papirus Yaru folders.
 
-If you want to install the version 0.7 via terminal, just use this command:
+If you want to install the version 0.7.1 via terminal, just use this command:
 
-``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.7/WFB-0.7.zip && unzip WFB-0.7.zip && ./FBF-0.7/IFB.sh ```
+``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.7.1/WFB-0.7.1.zip && unzip WFB-0.7.1.zip && ./FBF-0.7.1/IFB.sh ```
 
 ![Snapshot_2024-12-18_05-37-01](https://github.com/user-attachments/assets/b45f5cf0-be63-4afb-8d59-f7eb9be1facf)
 
