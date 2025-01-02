@@ -1,3 +1,5 @@
+# Flugir Budgie
+
 Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
 It also comes with the FlugirDot cursors, based on the GoogleDot cursors, and Papirus icons using Papirus Yaru folders.
