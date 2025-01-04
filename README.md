@@ -35,6 +35,10 @@ Fluent theme:
 
 https://github.com/vinceliuice/Fluent-gtk-theme
 
+Matcha theme:
+
+https://github.com/vinceliuice/Matcha-gtk-theme
+
 Arc theme of Ubuntu repository.
 
 Papirus:
