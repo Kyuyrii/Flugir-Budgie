@@ -21,7 +21,7 @@ And reuse them when installing new Snap apps.
 
 ``` for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:gtk-3-themes; done && for i in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:icon-themes; done ```
 
-These were the projects I used to make the Flugir Budgie theme.
+# These were the projects I used to make the Flugir Budgie theme.
 
 Qogir:
 
