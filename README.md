@@ -2,11 +2,11 @@
 
 Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
-It also comes with the FlugirDot cursors, based on the GoogleDot cursors, and Flugir-Papirus icons.
+It also comes with FlugirDot cursors, based on GoogleDot cursors, and Flugir-Tela icons, a slight modification of Tela-black.
 
-If you want to install the version 0.8 via terminal, just use this command.
+If you want to install the version 0.9.1 via terminal, just use this command.
 
-``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.8/WFB-0.8.tar.gz && tar -xvzf WFB-0.8.tar.gz && ./FBF-0.8/IFB.sh ```
+``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.1/WFB-0.9.1.tar.gz && tar -xvzf WFB-0.9.1.tar.gz && ./FBF-0.9.1/IFB.sh ```
 
 ![Snapshot_2024-12-18_05-37-01](https://github.com/user-attachments/assets/b45f5cf0-be63-4afb-8d59-f7eb9be1facf)
 
@@ -27,8 +27,6 @@ Qogir:
 
 https://github.com/vinceliuice/Qogir-theme
 
-https://github.com/vinceliuice/Qogir-icon-theme
-
 Fluent:
 
 https://github.com/vinceliuice/Fluent-gtk-theme
@@ -42,8 +40,6 @@ Arc theme of Ubuntu repository.
 Papirus:
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
-
-https://github.com/PapirusDevelopmentTeam/papirus-folders
 
 Tela:
 
