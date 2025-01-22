@@ -27,10 +27,6 @@ Qogir:
 
 https://github.com/vinceliuice/Qogir-theme
 
-Fluent:
-
-https://github.com/vinceliuice/Fluent-gtk-theme
-
 Matcha:
 
 https://github.com/vinceliuice/Matcha-gtk-theme
