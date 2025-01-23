@@ -8,7 +8,7 @@ If you want to install version 0.9.3 via terminal, use the command below, I reco
 
 ``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.3/WFB-0.9.3.tar.xz && tar -xf WFB-0.9.3.tar.xz && ./FBF-0.9.3/IFB.sh ```
 
-![Snapshot_2025-01-06_03-21-43](https://github.com/user-attachments/assets/02238dca-4c01-4dae-a183-9820ec87a65e)
+![Snapshot_2025-01-23_11-24-47](https://github.com/user-attachments/assets/4f9598e6-86d0-4479-8256-fb98dfcad34e)
 
 To use it in Snap applications, you need to install the Snap version of the theme.
 
