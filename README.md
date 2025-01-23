@@ -27,6 +27,8 @@ Qogir:
 
 https://github.com/vinceliuice/Qogir-theme
 
+https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors
+
 Matcha:
 
 https://github.com/vinceliuice/Matcha-gtk-theme
