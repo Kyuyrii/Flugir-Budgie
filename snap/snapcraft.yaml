@@ -3,12 +3,9 @@ build-base: core24
 base: bare
 version: '0.9.3'
 platforms:
-  amd64:
+  all:
     build-on: [amd64]
-    build-for: [amd64]
-  arm64:
-    build-on: [amd64]
-    build-for: [arm64]
+    build-for: [all]
 summary: A dark theme for Ubuntu Budgie, based on Qogir theme.
 description: |
   A Snap to use Flugir Budgie GTK theme, Flugir-Tela icons and FlugirDot cursors in Snap apps.
