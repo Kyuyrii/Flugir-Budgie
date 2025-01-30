@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '0.9.3'
+version: '0.9.3.1'
 platforms:
   all:
     build-on: [amd64]
