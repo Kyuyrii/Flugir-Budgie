@@ -43,7 +43,7 @@ parts:
       mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/
-  # Flugir Budgie gtk theme, Qogir version 2024-05-02
+  # Flugir-Budgie gtk theme, Qogir version 2024-05-02
   gtk-2-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.3/Flugir-Budgie-0.9.3-snapcraft-files.tar.xz
