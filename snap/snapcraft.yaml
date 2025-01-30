@@ -29,28 +29,7 @@ slots:
     source:
       read:
         - $SNAP/share/themes/Flugir-Budgie
-  content:
-    allow-auto-connection:
-      -
-        plug-attributes:
-          content: $SLOT(content)
-        slot-attributes:
-          content: icon-themes
-        slots-per-plug: "*"
-      -
-        plug-attributes:
-          content: $SLOT(content)
-        slot-attributes:
-          content: gtk-2-themes
-        slots-per-plug: "*"
-      -
-        plug-attributes:
-          content: $SLOT(content)
-        slot-attributes:
-          content: gtk-3-themes
-        slots-per-plug: "*"
 
-  
 parts:
   # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Tela icons version 2024-09-04
   icon-themes:
