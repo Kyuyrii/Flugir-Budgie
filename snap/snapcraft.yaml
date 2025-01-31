@@ -40,9 +40,11 @@ parts:
       pwd
       ls -l
       mkdir -p $CRAFT_PART_INSTALL/share/icons
-      mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
+      mv -f $CRAFT_PART_INSTALL/icon-themes/FlugirDot $CRAFT_PART_INSTALL/share/icons
+      mv -f $CRAFT_PART_INSTALL/icon-themes/Flugir-Tela $CRAFT_PART_INSTALL/share/icons
     stage:
-      - share/icons/
+      - share/icons/FlugirDot
+      - share/icons/Flugir-Tela
   # Flugir-Budgie gtk theme, Qogir version 2024-05-02
   gtk-2-themes:
     plugin: dump
@@ -51,10 +53,10 @@ parts:
       snapcraftctl build
       pwd
       ls -l
-      mkdir -p $CRAFT_PART_INSTALL/share/gtk2
-      mv -f $CRAFT_PART_INSTALL/gtk-themes/Flugir-Budgie $CRAFT_PART_INSTALL/share/gtk2
+      mkdir -p $CRAFT_PART_INSTALL/share/
+      mv -f $CRAFT_PART_INSTALL/gtk-themes/gtk2 $CRAFT_PART_INSTALL/share/
     stage:
-      - share/gtk2/
+      - share/gtk2/Flugir-Budgie
   gtk-3-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
@@ -62,7 +64,7 @@ parts:
       snapcraftctl build
       pwd
       ls -l
-      mkdir -p $CRAFT_PART_INSTALL/share/themes
-      mv -f $CRAFT_PART_INSTALL/gtk-themes/Flugir-Budgie $CRAFT_PART_INSTALL/share/themes
+      mkdir -p $CRAFT_PART_INSTALL/share/
+      mv -f $CRAFT_PART_INSTALL/gtk-themes/themes $CRAFT_PART_INSTALL/share/
     stage:
-      - share/themes/
+      - share/themes/Flugir-Budgie
