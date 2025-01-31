@@ -16,13 +16,6 @@ To use it in Snap applications, you need to install the Snap version of the them
   <img alt="Get it from the Snap Store" src="https://snapcraft.io/en/dark/install.svg" />
 </a>
 
-Unfortunately, you still need to use this command to theme installed Snap apps.
-And reuse them when installing new Snap apps.
-
-``` for i in $(snap connections | grep gtk-common-themes:gtk-3-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:gtk-3-themes; done && for i in $(snap connections | grep gtk-common-themes:icon-themes | awk '{print $2}'); do sudo snap connect $i flugir-budgie-theme:icon-themes; done ```
-
-# These were the projects I used to make the Flugir Budgie theme.
-
 Qogir:
 
 https://github.com/vinceliuice/Qogir-theme
