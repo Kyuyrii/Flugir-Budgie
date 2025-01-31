@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '0.9.3'
+version: '0.9.4'
 platforms:
   all:
     build-on: [amd64]
@@ -34,7 +34,7 @@ parts:
   # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Tela icons version 2024-09-04
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.3/Flugir-Budgie-0.9.3-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -46,7 +46,7 @@ parts:
   # Flugir-Budgie gtk theme, Qogir version 2024-05-02
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.3/Flugir-Budgie-0.9.3-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -57,7 +57,7 @@ parts:
       - share/gtk2/
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.3/Flugir-Budgie-0.9.3-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
