@@ -1,14 +1,14 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '0.9.4'
+version: '0.10'
 platforms:
   all:
     build-on: [amd64]
     build-for: [all]
 summary: A dark theme for Budgie Desktop.
 description: |
-  A Snap to use Flugir Budgie GTK theme, Flugir-Tela icons and FlugirDot cursors in Snap apps.
+  A Snap to use Flugir themes.
 grade: stable
 confinement: strict
 
@@ -34,7 +34,7 @@ parts:
   # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Tela icons version 2024-09-04
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.10/Flugir-Budgie-0.10-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -48,7 +48,7 @@ parts:
   # Flugir-Budgie gtk theme, Qogir version 2024-05-02
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.10/Flugir-Budgie-0.10-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -59,7 +59,7 @@ parts:
       - share/gtk2/Flugir-Budgie
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.9.4/Flugir-Budgie-0.9.4-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.10/Flugir-Budgie-0.10-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
