@@ -36,6 +36,10 @@ Tela:
 
 https://github.com/vinceliuice/Tela-icon-theme
 
+Candy icons:
+
+https://github.com/EliverLara/candy-icons
+
 GoogleDot cursors:
 
 https://github.com/ful1e5/Google_Cursor
