@@ -28,6 +28,10 @@ https://github.com/vinceliuice/Matcha-gtk-theme
 
 Arc theme of Ubuntu repository.
 
+Pocillo:
+
+https://github.com/UbuntuBudgie/pocillo-gtk-theme
+
 Papirus:
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
