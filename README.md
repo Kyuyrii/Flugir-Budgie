@@ -6,7 +6,7 @@ It also comes with FlugirDot cursors, based on GoogleDot cursors, and Flugir-Tel
 
 If you want to install version 0.10 via terminal, use the command below, I recommend restarting the system after the installation is complete.
 
-``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.10/WFB-0.10.tar.xz && tar -xf WFB-0.10.tar.xz && ./FBF-0.10/IFB.sh ```
+``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.11/WFB-0.11.tar.xz && tar -xf WFB-0.11.tar.xz && ./FBF-0.11/IFB.sh ```
 
 ![Snapshot_2025-01-23_11-24-47](https://github.com/user-attachments/assets/4f9598e6-86d0-4479-8256-fb98dfcad34e)
 
