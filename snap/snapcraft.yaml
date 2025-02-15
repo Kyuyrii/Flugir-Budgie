@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '0.10'
+version: '0.11'
 platforms:
   all:
     build-on: [amd64]
@@ -23,11 +23,15 @@ slots:
     interface: content
     source:
       read:
+        - $SNAP/share/gtk2/Flucillo
+        - $SNAP/share/gtk2/Flucillo-Slim
         - $SNAP/share/gtk2/Flugir-Budgie
   gtk-3-themes:
     interface: content
     source:
       read:
+        - $SNAP/share/themes/Flucillo
+        - $SNAP/share/themes/Flucillo-Slim
         - $SNAP/share/themes/Flugir-Budgie
   
 parts:
@@ -45,7 +49,7 @@ parts:
     stage:
       - share/icons/FlugirDot
       - share/icons/Flugir-Tela
-  # Flugir-Budgie gtk theme, Qogir version 2024-05-02
+  # Flugir gtk themes, Qogir version 2024-05-02, Pocillo deb version 0.21.0
   gtk-2-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.10/Flugir-Budgie-0.10-snapcraft-files.tar.xz
@@ -56,6 +60,8 @@ parts:
       mkdir -p $CRAFT_PART_INSTALL/share/
       mv -f $CRAFT_PART_INSTALL/gtk-themes/gtk2 $CRAFT_PART_INSTALL/share/
     stage:
+      - share/gtk2/Flucillo
+      - share/gtk2/Flucillo-Slim
       - share/gtk2/Flugir-Budgie
   gtk-3-themes:
     plugin: dump
@@ -67,4 +73,6 @@ parts:
       mkdir -p $CRAFT_PART_INSTALL/share/
       mv -f $CRAFT_PART_INSTALL/gtk-themes/themes $CRAFT_PART_INSTALL/share/
     stage:
+      - share/themes/Flucillo
+      - share/themes/Flucillo-Slim
       - share/themes/Flugir-Budgie
