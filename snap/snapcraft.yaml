@@ -1,14 +1,14 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '0.12'
+version: '1.0'
 platforms:
   all:
     build-on: [amd64]
     build-for: [all]
-summary: Dark themes for Budgie Desktop.
+summary: Some themes used in Budgie Desktop.
 description: |
-  A Snap to use Flugir themes and others.
+  A Snap to use Flugir themes and others in Snap apps.
 grade: stable
 confinement: strict
 
@@ -18,6 +18,9 @@ slots:
     source:
       read:
         - $SNAP/share/icons/FlugirDot
+        - $SNAP/share/icons/Flugir-Papirus
+        - $SNAP/share/icons/Flugir-Papirus-Dark
+        - $SNAP/share/icons/Flugir-Papirus-Light
         - $SNAP/share/icons/Flugir-Tela
   gtk-2-themes:
     interface: content
@@ -25,46 +28,48 @@ slots:
       read:
         - $SNAP/share/gtk2/Flucillo
         - $SNAP/share/gtk2/Flucillo-Slim
-        - $SNAP/share/gtk2/Flugir-Budgie
         - $SNAP/share/gtk2/Fluent
         - $SNAP/share/gtk2/Fluent-compact
         - $SNAP/share/gtk2/Fluent-Dark
         - $SNAP/share/gtk2/Fluent-Dark-compact
         - $SNAP/share/gtk2/Fluent-Light
         - $SNAP/share/gtk2/Fluent-Light-compact
+        - $SNAP/share/gtk2/Flugir-Budgie
   gtk-3-themes:
     interface: content
     source:
       read:
         - $SNAP/share/themes/Flucillo
         - $SNAP/share/themes/Flucillo-Slim
-        - $SNAP/share/themes/Flugir-Budgie
         - $SNAP/share/themes/Fluent
         - $SNAP/share/themes/Fluent-compact
         - $SNAP/share/themes/Fluent-Dark
         - $SNAP/share/themes/Fluent-Dark-compact
         - $SNAP/share/themes/Fluent-Light
         - $SNAP/share/themes/Fluent-Light-compact
+        - $SNAP/share/themes/Flugir-Budgie
   
 parts:
-  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Tela icons version 2024-09-04
+  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-02-25
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.12/Flugir-Budgie-0.12-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/Flugir-Budgie-1.0-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
       ls -l
       mkdir -p $CRAFT_PART_INSTALL/share/icons
-      mv -f $CRAFT_PART_INSTALL/icon-themes/FlugirDot $CRAFT_PART_INSTALL/share/icons
-      mv -f $CRAFT_PART_INSTALL/icon-themes/Flugir-Tela $CRAFT_PART_INSTALL/share/icons
+      mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/FlugirDot
+      - share/icons/Flugir-Papirus
+      - share/icons/Flugir-Papirus-Dark
+      - share/icons/Flugir-Papirus-Light
       - share/icons/Flugir-Tela
-  # Flugir gtk themes, Qogir version 2024-05-02, Pocillo deb version 0.21.0, Fluent version of day 2025-02-21
+  # Gtk themes, Qogir extracted in 2025-02-24, Pocillo deb version 0.21.0
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.12/Flugir-Budgie-0.12-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/Flugir-Budgie-1.0-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -74,16 +79,16 @@ parts:
     stage:
       - share/gtk2/Flucillo
       - share/gtk2/Flucillo-Slim
-      - share/gtk2/Flugir-Budgie
       - share/gtk2/Fluent
       - share/gtk2/Fluent-compact
       - share/gtk2/Fluent-Dark
       - share/gtk2/Fluent-Dark-compact
       - share/gtk2/Fluent-Light
       - share/gtk2/Fluent-Light-compact
+      - share/gtk2/Flugir-Budgie
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-0.12/Flugir-Budgie-0.12-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/Flugir-Budgie-1.0-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -93,10 +98,10 @@ parts:
     stage:
       - share/themes/Flucillo
       - share/themes/Flucillo-Slim
-      - share/themes/Flugir-Budgie
       - share/themes/Fluent
       - share/themes/Fluent-compact
       - share/themes/Fluent-Dark
       - share/themes/Fluent-Dark-compact
       - share/themes/Fluent-Light
       - share/themes/Fluent-Light-compact
+      - share/themes/Flugir-Budgie
