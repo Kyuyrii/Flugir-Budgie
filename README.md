@@ -1,14 +1,14 @@
 # Flugir Budgie
 
-Flugir Budgie is a theme for the Budgie desktop, based on the Qogir theme.
+Flugir-Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
-It also comes with FlugirDot cursors, based on GoogleDot cursors, and Flugir-Tela icons, a slight modification of Tela-nord-dark.
+But the project currently has the idea of ​​including other themes, so that they can be used in Snap applications without having to go through bureaucracy.
 
 If you want to install version 1.0 via terminal, use the command below, I recommend restarting the system after the installation is complete.
 
 ``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/WFB-1.0.tar.xz && tar -xf WFB-1.0.tar.xz && ./FBF-1.0/IFB.sh ```
 
-![Snapshot_2025-01-23_11-24-47](https://github.com/user-attachments/assets/4f9598e6-86d0-4479-8256-fb98dfcad34e)
+![Snapshot_2025-02-26_09-58-30](https://github.com/user-attachments/assets/4c911979-82a1-45e2-94f5-16a89d2cb96d)
 
 To use it in Snap applications, you need to install the Snap version of the theme.
 
@@ -16,7 +16,8 @@ To use it in Snap applications, you need to install the Snap version of the them
   <img alt="Get it from the Snap Store" src="https://snapcraft.io/en/dark/install.svg" />
 </a>
 
-These are the projects that are included in Flugir-Budgie with small modifications to work with labwc and be able to be used in Snap:
+
+# These are the projects that are included in Flugir-Budgie with small modifications to work with labwc and be able to be used in Snap:
 
 Fluent:
 
@@ -26,7 +27,8 @@ Papirus:
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
-These are the projects used on Flugir-Budgie.
+
+# These are the projects used on Flugir-Budgie:
 
 Qogir:
 
