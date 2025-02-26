@@ -16,7 +16,17 @@ To use it in Snap applications, you need to install the Snap version of the them
   <img alt="Get it from the Snap Store" src="https://snapcraft.io/en/dark/install.svg" />
 </a>
 
-These are the projects used or available on Flugir-Budgie.
+These are the projects that are included in Flugir-Budgie with small modifications to work with labwc and be able to be used in Snap:
+
+Fluent:
+
+https://github.com/vinceliuice/Fluent-gtk-theme
+
+Papirus:
+
+https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+
+These are the projects used on Flugir-Budgie.
 
 Qogir:
 
@@ -31,10 +41,6 @@ https://github.com/vinceliuice/Matcha-gtk-theme
 Pocillo:
 
 https://github.com/UbuntuBudgie/pocillo-gtk-theme
-
-Papirus:
-
-https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
 Tela:
 
