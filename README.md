@@ -16,6 +16,8 @@ To use it in Snap applications, you need to install the Snap version of the them
   <img alt="Get it from the Snap Store" src="https://snapcraft.io/en/dark/install.svg" />
 </a>
 
+These are the projects used or available on Flugir-Budgie.
+
 Qogir:
 
 https://github.com/vinceliuice/Qogir-theme
