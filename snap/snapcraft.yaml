@@ -1,12 +1,12 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '1.0'
+version: '2.0'
 platforms:
   all:
     build-on: [amd64]
     build-for: [all]
-summary: Some themes used in Budgie Desktop.
+summary: Some themes used in Budgie Desktop and others.
 description: |
   A Snap to use Flugir themes and others in Snap apps.
 grade: stable
@@ -21,7 +21,19 @@ slots:
         - $SNAP/share/icons/Flugir-Papirus
         - $SNAP/share/icons/Flugir-Papirus-Dark
         - $SNAP/share/icons/Flugir-Papirus-Light
-        - $SNAP/share/icons/Flugir-Tela
+        - $SNAP/share/icons/Zorin
+        - $SNAP/share/icons/ZorinBlue-Dark
+        - $SNAP/share/icons/ZorinBlue-Light
+        - $SNAP/share/icons/ZorinGreen-Dark
+        - $SNAP/share/icons/ZorinGreen-Light
+        - $SNAP/share/icons/ZorinGrey-Dark
+        - $SNAP/share/icons/ZorinGrey-Light
+        - $SNAP/share/icons/ZorinOrange-Dark
+        - $SNAP/share/icons/ZorinOrange-Light
+        - $SNAP/share/icons/ZorinPurple-Dark
+        - $SNAP/share/icons/ZorinPurple-Light
+        - $SNAP/share/icons/ZorinRed-Dark
+        - $SNAP/share/icons/ZorinRed-Light
   gtk-2-themes:
     interface: content
     source:
@@ -35,6 +47,18 @@ slots:
         - $SNAP/share/gtk2/Fluent-Light
         - $SNAP/share/gtk2/Fluent-Light-compact
         - $SNAP/share/gtk2/Flugir-Budgie
+        - $SNAP/share/gtk2/ZorinBlue-Dark
+        - $SNAP/share/gtk2/ZorinBlue-Light
+        - $SNAP/share/gtk2/ZorinGreen-Dark
+        - $SNAP/share/gtk2/ZorinGreen-Light
+        - $SNAP/share/gtk2/ZorinGrey-Dark
+        - $SNAP/share/gtk2/ZorinGrey-Light
+        - $SNAP/share/gtk2/ZorinOrange-Dark
+        - $SNAP/share/gtk2/ZorinOrange-Light
+        - $SNAP/share/gtk2/ZorinPurple-Dark
+        - $SNAP/share/gtk2/ZorinPurple-Light
+        - $SNAP/share/gtk2/ZorinRed-Dark
+        - $SNAP/share/gtk2/ZorinRed-Light
   gtk-3-themes:
     interface: content
     source:
@@ -48,12 +72,24 @@ slots:
         - $SNAP/share/themes/Fluent-Light
         - $SNAP/share/themes/Fluent-Light-compact
         - $SNAP/share/themes/Flugir-Budgie
+        - $SNAP/share/themes/ZorinBlue-Dark
+        - $SNAP/share/themes/ZorinBlue-Light
+        - $SNAP/share/themes/ZorinGreen-Dark
+        - $SNAP/share/themes/ZorinGreen-Light
+        - $SNAP/share/themes/ZorinGrey-Dark
+        - $SNAP/share/themes/ZorinGrey-Light
+        - $SNAP/share/themes/ZorinOrange-Dark
+        - $SNAP/share/themes/ZorinOrange-Light
+        - $SNAP/share/themes/ZorinPurple-Dark
+        - $SNAP/share/themes/ZorinPurple-Light
+        - $SNAP/share/themes/ZorinRed-Dark
+        - $SNAP/share/themes/ZorinRed-Light
   
 parts:
   # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-02-25
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/Flugir-Budgie-1.0-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/Flugir-Budgie-2.0-Snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -61,15 +97,11 @@ parts:
       mkdir -p $CRAFT_PART_INSTALL/share/icons
       mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
-      - share/icons/FlugirDot
-      - share/icons/Flugir-Papirus
-      - share/icons/Flugir-Papirus-Dark
-      - share/icons/Flugir-Papirus-Light
-      - share/icons/Flugir-Tela
+      - share/icons/
   # Gtk themes, Qogir extracted in 2025-02-24, Pocillo deb version 0.21.0
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/Flugir-Budgie-1.0-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/Flugir-Budgie-2.0-Snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -77,18 +109,10 @@ parts:
       mkdir -p $CRAFT_PART_INSTALL/share/
       mv -f $CRAFT_PART_INSTALL/gtk-themes/gtk2 $CRAFT_PART_INSTALL/share/
     stage:
-      - share/gtk2/Flucillo
-      - share/gtk2/Flucillo-Slim
-      - share/gtk2/Fluent
-      - share/gtk2/Fluent-compact
-      - share/gtk2/Fluent-Dark
-      - share/gtk2/Fluent-Dark-compact
-      - share/gtk2/Fluent-Light
-      - share/gtk2/Fluent-Light-compact
-      - share/gtk2/Flugir-Budgie
+      - share/gtk2/
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/Flugir-Budgie-1.0-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/Flugir-Budgie-2.0-Snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -96,12 +120,4 @@ parts:
       mkdir -p $CRAFT_PART_INSTALL/share/
       mv -f $CRAFT_PART_INSTALL/gtk-themes/themes $CRAFT_PART_INSTALL/share/
     stage:
-      - share/themes/Flucillo
-      - share/themes/Flucillo-Slim
-      - share/themes/Fluent
-      - share/themes/Fluent-compact
-      - share/themes/Fluent-Dark
-      - share/themes/Fluent-Dark-compact
-      - share/themes/Fluent-Light
-      - share/themes/Fluent-Light-compact
-      - share/themes/Flugir-Budgie
+      - share/themes/
