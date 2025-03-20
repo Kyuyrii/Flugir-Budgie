@@ -4,9 +4,9 @@ Flugir-Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
 But the project currently has the idea of ​​including other themes, so that they can be used in Snap applications without having to go through bureaucracy.
 
-If you want to install version 1.0 via terminal, use the command below, I recommend restarting the system after the installation is complete.
+If you want to install version 2.0 via terminal, use the command below, I recommend restarting the system after the installation is complete.
 
-``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-1.0/WFB-1.0.tar.xz && tar -xf WFB-1.0.tar.xz && ./FBF-1.0/IFB.sh ```
+``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/WFB-2.0.tar.xz && tar -xf WFB-2.0.tar.xz && ./FBF-2.0/IFB.sh ```
 
 ![Snapshot_2025-02-26_09-58-30](https://github.com/user-attachments/assets/4c911979-82a1-45e2-94f5-16a89d2cb96d)
 
@@ -27,6 +27,11 @@ Papirus:
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
+Zorin:
+
+https://github.com/ZorinOS/zorin-desktop-themes/
+
+https://github.com/ZorinOS/zorin-icon-themes/
 
 # These are the projects used on Flugir-Budgie:
 
