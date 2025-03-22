@@ -21,6 +21,11 @@ slots:
         - $SNAP/share/icons/Flugir-Papirus
         - $SNAP/share/icons/Flugir-Papirus-Dark
         - $SNAP/share/icons/Flugir-Papirus-Light
+        - $SNAP/share/icons/Pocillo
+        - $SNAP/share/icons/Pocillo-light
+        - $SNAP/share/icons/TelaBudgie
+        - $SNAP/share/icons/TelaBudgie-dark
+        - $SNAP/share/icons/TelaBudgie-light
         - $SNAP/share/icons/Zorin
         - $SNAP/share/icons/ZorinBlue-Dark
         - $SNAP/share/icons/ZorinBlue-Light
