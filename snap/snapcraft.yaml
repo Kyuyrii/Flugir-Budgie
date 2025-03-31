@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '2.0'
+version: '2.1'
 platforms:
   all:
     build-on: [amd64]
@@ -43,8 +43,6 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/gtk2/Flucillo
-        - $SNAP/share/gtk2/Flucillo-Slim
         - $SNAP/share/gtk2/Fluent
         - $SNAP/share/gtk2/Fluent-compact
         - $SNAP/share/gtk2/Fluent-Dark
@@ -68,8 +66,6 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/themes/Flucillo
-        - $SNAP/share/themes/Flucillo-Slim
         - $SNAP/share/themes/Fluent
         - $SNAP/share/themes/Fluent-compact
         - $SNAP/share/themes/Fluent-Dark
@@ -94,7 +90,7 @@ parts:
   # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-02-25
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/Flugir-Budgie-2.0-Snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -106,7 +102,7 @@ parts:
   # Gtk themes, Qogir extracted in 2025-02-24, Pocillo deb version 0.21.0
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/Flugir-Budgie-2.0-Snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -117,7 +113,7 @@ parts:
       - share/gtk2/
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/Flugir-Budgie-2.0-Snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
