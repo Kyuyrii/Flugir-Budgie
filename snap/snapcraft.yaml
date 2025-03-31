@@ -87,7 +87,7 @@ slots:
         - $SNAP/share/themes/ZorinRed-Light
   
 parts:
-  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-02-25
+  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-03-30
   icon-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
@@ -99,7 +99,7 @@ parts:
       mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/
-  # Gtk themes, Qogir extracted in 2025-02-24, Pocillo deb version 0.21.0
+  # Gtk themes, Qogir extracted in 2025-02-24, Fluent version of 2025-03-30
   gtk-2-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
