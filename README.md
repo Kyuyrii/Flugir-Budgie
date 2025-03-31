@@ -4,9 +4,9 @@ Flugir-Budgie is a theme for the Budgie desktop, based on the Qogir theme.
 
 But the project currently has the idea of ​​including other themes, so that they can be used in Snap applications without having to go through bureaucracy.
 
-If you want to install version 2.0 via terminal, use the command below, I recommend restarting the system after the installation is complete.
+If you want to install version 2.1 via terminal, use the command below, I recommend restarting the system after the installation is complete.
 
-``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.0/WFB-2.0.tar.xz && tar -xf WFB-2.0.tar.xz && ./FBF-2.0/IFB.sh ```
+``` wget https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/WFB-2.1.tar.xz && tar -xf WFB-2.1.tar.xz && ./FBF-2.1/IFB.sh ```
 
 ![Snapshot_2025-02-26_09-58-30](https://github.com/user-attachments/assets/4c911979-82a1-45e2-94f5-16a89d2cb96d)
 
@@ -45,9 +45,9 @@ Matcha:
 
 https://github.com/vinceliuice/Matcha-gtk-theme
 
-Pocillo:
+Materia:
 
-https://github.com/UbuntuBudgie/pocillo-gtk-theme
+https://github.com/nana-4/materia-theme
 
 Tela:
 
