@@ -17,7 +17,6 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/icons/elementary
         - $SNAP/share/icons/FlugirDot
         - $SNAP/share/icons/Flugir-Papirus
         - $SNAP/share/icons/Flugir-Papirus-Dark
@@ -51,6 +50,12 @@ slots:
         - $SNAP/share/gtk2/Fluent-Light
         - $SNAP/share/gtk2/Fluent-Light-compact
         - $SNAP/share/gtk2/Flugir-Budgie
+        - $SNAP/share/gtk2/Orchis
+        - $SNAP/share/gtk2/Orchis-Compact
+        - $SNAP/share/gtk2/Orchis-Dark
+        - $SNAP/share/gtk2/Orchis-Dark-Compact
+        - $SNAP/share/gtk2/Orchis-Light
+        - $SNAP/share/gtk2/Orchis-Light-Compact
         - $SNAP/share/gtk2/ZorinBlue-Dark
         - $SNAP/share/gtk2/ZorinBlue-Light
         - $SNAP/share/gtk2/ZorinGreen-Dark
@@ -74,16 +79,12 @@ slots:
         - $SNAP/share/themes/Fluent-Light
         - $SNAP/share/themes/Fluent-Light-compact
         - $SNAP/share/themes/Flugir-Budgie
-        - $SNAP/share/themes/io.elementary.stylesheet.banana
-        - $SNAP/share/themes/io.elementary.stylesheet.blueberry
-        - $SNAP/share/themes/io.elementary.stylesheet.bubblegum
-        - $SNAP/share/themes/io.elementary.stylesheet.cocoa
-        - $SNAP/share/themes/io.elementary.stylesheet.grape
-        - $SNAP/share/themes/io.elementary.stylesheet.lime
-        - $SNAP/share/themes/io.elementary.stylesheet.mint
-        - $SNAP/share/themes/io.elementary.stylesheet.orange
-        - $SNAP/share/themes/io.elementary.stylesheet.slate
-        - $SNAP/share/themes/io.elementary.stylesheet.strawberry
+        - $SNAP/share/themes/Orchis
+        - $SNAP/share/themes/Orchis-Compact
+        - $SNAP/share/themes/Orchis-Dark
+        - $SNAP/share/themes/Orchis-Dark-Compact
+        - $SNAP/share/themes/Orchis-Light
+        - $SNAP/share/themes/Orchis-Light-Compact
         - $SNAP/share/themes/ZorinBlue-Dark
         - $SNAP/share/themes/ZorinBlue-Light
         - $SNAP/share/themes/ZorinGreen-Dark
