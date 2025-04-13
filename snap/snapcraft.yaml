@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '2.1'
+version: '2.2'
 platforms:
   all:
     build-on: [amd64]
@@ -17,10 +17,19 @@ slots:
     interface: content
     source:
       read:
+        - $SNAP/share/icons/Bibata-Modern-Amber
+        - $SNAP/share/icons/Bibata-Modern-Classic
+        - $SNAP/share/icons/Bibata-Modern-Ice
+        - $SNAP/share/icons/Bibata-Original-Amber
+        - $SNAP/share/icons/Bibata-Original-Classic
+        - $SNAP/share/icons/Bibata-Original-Ice
         - $SNAP/share/icons/FlugirDot
         - $SNAP/share/icons/Flugir-Papirus
         - $SNAP/share/icons/Flugir-Papirus-Dark
         - $SNAP/share/icons/Flugir-Papirus-Light
+        - $SNAP/share/icons/Papirus
+        - $SNAP/share/icons/Papirus-Dark
+        - $SNAP/share/icons/Papirus-Light
         - $SNAP/share/icons/Pocillo
         - $SNAP/share/icons/Pocillo-light
         - $SNAP/share/icons/TelaBudgie
@@ -99,7 +108,7 @@ slots:
         - $SNAP/share/themes/ZorinRed-Light
   
 parts:
-  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-03-30
+  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-04-13
   icon-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
