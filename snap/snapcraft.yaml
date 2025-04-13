@@ -17,6 +17,7 @@ slots:
     interface: content
     source:
       read:
+        - $SNAP/share/icons/elementary
         - $SNAP/share/icons/FlugirDot
         - $SNAP/share/icons/Flugir-Papirus
         - $SNAP/share/icons/Flugir-Papirus-Dark
@@ -73,6 +74,16 @@ slots:
         - $SNAP/share/themes/Fluent-Light
         - $SNAP/share/themes/Fluent-Light-compact
         - $SNAP/share/themes/Flugir-Budgie
+        - $SNAP/share/themes/io.elementary.stylesheet.banana
+        - $SNAP/share/themes/io.elementary.stylesheet.blueberry
+        - $SNAP/share/themes/io.elementary.stylesheet.bubblegum
+        - $SNAP/share/themes/io.elementary.stylesheet.cocoa
+        - $SNAP/share/themes/io.elementary.stylesheet.grape
+        - $SNAP/share/themes/io.elementary.stylesheet.lime
+        - $SNAP/share/themes/io.elementary.stylesheet.mint
+        - $SNAP/share/themes/io.elementary.stylesheet.orange
+        - $SNAP/share/themes/io.elementary.stylesheet.slate
+        - $SNAP/share/themes/io.elementary.stylesheet.strawberry
         - $SNAP/share/themes/ZorinBlue-Dark
         - $SNAP/share/themes/ZorinBlue-Light
         - $SNAP/share/themes/ZorinGreen-Dark
