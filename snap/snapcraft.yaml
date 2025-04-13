@@ -111,7 +111,7 @@ parts:
   # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-04-13
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -123,7 +123,7 @@ parts:
   # Gtk themes, Qogir extracted in 2025-02-24, Fluent version of 2025-03-30
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -134,7 +134,7 @@ parts:
       - share/gtk2/
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.1/flugir-budgie-2.1-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
