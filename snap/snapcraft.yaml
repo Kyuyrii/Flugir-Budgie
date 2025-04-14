@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '2.3'
+version: '2.2'
 platforms:
   all:
     build-on: [amd64]
@@ -17,40 +17,129 @@ slots:
     interface: content
     source:
       read:
+        - $SNAP/share/icons/Bibata-Modern-Amber
+        - $SNAP/share/icons/Bibata-Modern-Classic
+        - $SNAP/share/icons/Bibata-Modern-Ice
+        - $SNAP/share/icons/Bibata-Original-Amber
+        - $SNAP/share/icons/Bibata-Original-Classic
+        - $SNAP/share/icons/Bibata-Original-Ice
         - $SNAP/share/icons/FlugirDot
+        - $SNAP/share/icons/Flugir-Papirus
+        - $SNAP/share/icons/Flugir-Papirus-Dark
+        - $SNAP/share/icons/Flugir-Papirus-Light
+        - $SNAP/share/icons/Papirus
+        - $SNAP/share/icons/Papirus-Dark
+        - $SNAP/share/icons/Papirus-Light
+        - $SNAP/share/icons/Pocillo
+        - $SNAP/share/icons/Pocillo-light
+        - $SNAP/share/icons/TelaBudgie
+        - $SNAP/share/icons/TelaBudgie-dark
+        - $SNAP/share/icons/TelaBudgie-light
+        - $SNAP/share/icons/Zorin
+        - $SNAP/share/icons/ZorinBlue-Dark
+        - $SNAP/share/icons/ZorinBlue-Light
+        - $SNAP/share/icons/ZorinGreen-Dark
+        - $SNAP/share/icons/ZorinGreen-Light
+        - $SNAP/share/icons/ZorinGrey-Dark
+        - $SNAP/share/icons/ZorinGrey-Light
+        - $SNAP/share/icons/ZorinOrange-Dark
+        - $SNAP/share/icons/ZorinOrange-Light
+        - $SNAP/share/icons/ZorinPurple-Dark
+        - $SNAP/share/icons/ZorinPurple-Light
+        - $SNAP/share/icons/ZorinRed-Dark
+        - $SNAP/share/icons/ZorinRed-Light
   gtk-2-themes:
     interface: content
     source:
       read:
+        - $SNAP/share/gtk2/Fluent
+        - $SNAP/share/gtk2/Fluent-compact
+        - $SNAP/share/gtk2/Fluent-Dark
+        - $SNAP/share/gtk2/Fluent-Dark-compact
+        - $SNAP/share/gtk2/Fluent-Light
+        - $SNAP/share/gtk2/Fluent-Light-compact
         - $SNAP/share/gtk2/Flugir-Budgie
+        - $SNAP/share/gtk2/Orchis
+        - $SNAP/share/gtk2/Orchis-Compact
+        - $SNAP/share/gtk2/Orchis-Dark
+        - $SNAP/share/gtk2/Orchis-Dark-Compact
+        - $SNAP/share/gtk2/Orchis-Light
+        - $SNAP/share/gtk2/Orchis-Light-Compact
+        - $SNAP/share/gtk2/ZorinBlue-Dark
+        - $SNAP/share/gtk2/ZorinBlue-Light
+        - $SNAP/share/gtk2/ZorinGreen-Dark
+        - $SNAP/share/gtk2/ZorinGreen-Light
+        - $SNAP/share/gtk2/ZorinGrey-Dark
+        - $SNAP/share/gtk2/ZorinGrey-Light
+        - $SNAP/share/gtk2/ZorinOrange-Dark
+        - $SNAP/share/gtk2/ZorinOrange-Light
+        - $SNAP/share/gtk2/ZorinPurple-Dark
+        - $SNAP/share/gtk2/ZorinPurple-Light
+        - $SNAP/share/gtk2/ZorinRed-Dark
+        - $SNAP/share/gtk2/ZorinRed-Light
   gtk-3-themes:
     interface: content
     source:
       read:
+        - $SNAP/share/themes/Fluent
+        - $SNAP/share/themes/Fluent-compact
+        - $SNAP/share/themes/Fluent-Dark
+        - $SNAP/share/themes/Fluent-Dark-compact
+        - $SNAP/share/themes/Fluent-Light
+        - $SNAP/share/themes/Fluent-Light-compact
         - $SNAP/share/themes/Flugir-Budgie
+        - $SNAP/share/themes/Orchis
+        - $SNAP/share/themes/Orchis-Compact
+        - $SNAP/share/themes/Orchis-Dark
+        - $SNAP/share/themes/Orchis-Dark-Compact
+        - $SNAP/share/themes/Orchis-Light
+        - $SNAP/share/themes/Orchis-Light-Compact
+        - $SNAP/share/themes/ZorinBlue-Dark
+        - $SNAP/share/themes/ZorinBlue-Light
+        - $SNAP/share/themes/ZorinGreen-Dark
+        - $SNAP/share/themes/ZorinGreen-Light
+        - $SNAP/share/themes/ZorinGrey-Dark
+        - $SNAP/share/themes/ZorinGrey-Light
+        - $SNAP/share/themes/ZorinOrange-Dark
+        - $SNAP/share/themes/ZorinOrange-Light
+        - $SNAP/share/themes/ZorinPurple-Dark
+        - $SNAP/share/themes/ZorinPurple-Light
+        - $SNAP/share/themes/ZorinRed-Dark
+        - $SNAP/share/themes/ZorinRed-Light
+  
 parts:
-  FlugirDot:
+  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-04-13
+  icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.3/Flugir-Budgie-2.3.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
       ls -l
       mkdir -p $CRAFT_PART_INSTALL/share/icons
-      mv -f $CRAFT_PART_INSTALL/icons/* $CRAFT_PART_INSTALL/share/icons
+      mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/
-  Flugir-Budgie-GTK:
+  # Gtk themes, Qogir extracted in 2025-02-24, Fluent version of 2025-03-30
+  gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.3/Flugir-Budgie-2.3.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
     override-build: |
       snapcraftctl build
       pwd
       ls -l
-      mkdir -p $CRAFT_PART_INSTALL/share/gtk2
-      mkdir -p $CRAFT_PART_INSTALL/share/themes
-      mv -f $CRAFT_PART_INSTALL/gtk2/* $CRAFT_PART_INSTALL/share/gtk2
-      mv -f $CRAFT_PART_INSTALL/themes/* $CRAFT_PART_INSTALL/share/themes
+      mkdir -p $CRAFT_PART_INSTALL/share/
+      mv -f $CRAFT_PART_INSTALL/gtk-themes/gtk2 $CRAFT_PART_INSTALL/share/
     stage:
-      - share/gtk2
-      - share/themes
+      - share/gtk2/
+  gtk-3-themes:
+    plugin: dump
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
+    override-build: |
+      snapcraftctl build
+      pwd
+      ls -l
+      mkdir -p $CRAFT_PART_INSTALL/share/
+      mv -f $CRAFT_PART_INSTALL/gtk-themes/themes $CRAFT_PART_INSTALL/share/
+    stage:
+      - share/themes/
