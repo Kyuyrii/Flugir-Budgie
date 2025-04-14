@@ -116,7 +116,7 @@ parts:
       pwd
       ls -l
       mkdir -p $CRAFT_PART_INSTALL/share/icons
-      mv -f $CRAFT_PART_INSTALL/usr/share/icons/* $CRAFT_PART_INSTALL/share/icons
+      mv -f $CRAFT_PART_INSTALL/icons/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/
   Flugir-Budgie-GTK:
