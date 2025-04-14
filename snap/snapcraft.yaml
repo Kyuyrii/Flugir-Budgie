@@ -108,9 +108,9 @@ slots:
         - $SNAP/share/themes/ZorinRed-Light
   
 parts:
-  Pocillo-icons:
+  FlugirDot:
     plugin: dump
-    source: http://de.archive.ubuntu.com/ubuntu/pool/universe/b/budgie-artwork/pocillo-icon-theme_0.21.1_all.deb
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.3/FlugirDot-2.3.tar.xz
     override-build: |
       snapcraftctl build
       pwd
@@ -121,7 +121,7 @@ parts:
       - share/icons/
   Flugir-Budgie-GTK:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.3/Flugir-Budgie-GTK-2.3.tar.xz
     override-build: |
       snapcraftctl build
       pwd
