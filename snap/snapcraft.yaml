@@ -110,7 +110,7 @@ slots:
 parts:
   FlugirDot:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.3/FlugirDot-2.3.tar.xz
+    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.3/FlugirDot.tar.xz
     override-build: |
       snapcraftctl build
       pwd
