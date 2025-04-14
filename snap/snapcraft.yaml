@@ -128,7 +128,7 @@ parts:
       ls -l
       mkdir -p $CRAFT_PART_INSTALL/share/gtk2
       mkdir -p $CRAFT_PART_INSTALL/share/themes
-      mv -f $CRAFT_PART_INSTALL/gtk2/* $CRAFT_PART_INSTALL/share/
-      mv -f $CRAFT_PART_INSTALL/themes/* $CRAFT_PART_INSTALL/share/
+      mv -f $CRAFT_PART_INSTALL/gtk2/* $CRAFT_PART_INSTALL/share/gtk2
+      mv -f $CRAFT_PART_INSTALL/themes/* $CRAFT_PART_INSTALL/share/themes
     stage:
       - share/themes
