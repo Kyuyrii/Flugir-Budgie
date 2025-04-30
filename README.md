@@ -19,6 +19,12 @@ To use it in Snap applications, you need to install the Snap version of the them
 
 # These are the projects that are included in Flugir-Budgie with small modifications to work with labwc and/or be able to be used in Snap:
 
+Colloid:
+
+https://github.com/vinceliuice/Colloid-gtk-theme
+
+https://github.com/vinceliuice/Colloid-icon-theme
+
 Fluent:
 
 https://github.com/vinceliuice/Fluent-gtk-theme
