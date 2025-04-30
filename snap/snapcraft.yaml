@@ -33,6 +33,9 @@ slots:
         - $SNAP/share/icons/Fluent-dark
         - $SNAP/share/icons/Fluent-light
         - $SNAP/share/icons/FlugirDot
+        - $SNAP/share/icons/Flugir-Fluent
+        - $SNAP/share/icons/Flugir-Fluent-Dark
+        - $SNAP/share/icons/Flugir-Fluent-Light
         - $SNAP/share/icons/Flugir-Papirus
         - $SNAP/share/icons/Flugir-Papirus-Dark
         - $SNAP/share/icons/Flugir-Papirus-Light
@@ -121,7 +124,7 @@ slots:
         - $SNAP/share/themes/ZorinRed-Light
   
 parts:
-  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-04-13
+  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-04-29
   icon-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
@@ -133,7 +136,7 @@ parts:
       mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/
-  # Gtk themes, Qogir extracted in 2025-02-24, Fluent version of 2025-03-30
+  # Gtk themes, Qogir extracted in 2025-02-24, Fluent version of 2025-04-29
   gtk-2-themes:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
