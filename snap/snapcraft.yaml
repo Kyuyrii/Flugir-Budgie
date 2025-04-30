@@ -29,6 +29,8 @@ slots:
         - $SNAP/share/icons/Bibata-Original-Classic-Right
         - $SNAP/share/icons/Bibata-Original-Ice
         - $SNAP/share/icons/Bibata-Original-Ice-Right
+        - $SNAP/share/icons/catppuccin-mocha-dark-cursors
+        - $SNAP/share/icons/catppuccin-mocha-light-cursors
         - $SNAP/share/icons/Colloid-Catppuccin
         - $SNAP/share/icons/Colloid-Catppuccin-Dark
         - $SNAP/share/icons/Colloid-Catppuccin-Light
