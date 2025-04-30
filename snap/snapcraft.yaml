@@ -29,9 +29,15 @@ slots:
         - $SNAP/share/icons/Bibata-Original-Classic-Right
         - $SNAP/share/icons/Bibata-Original-Ice
         - $SNAP/share/icons/Bibata-Original-Ice-Right
+        - $SNAP/share/icons/Colloid-Catppuccin
+        - $SNAP/share/icons/Colloid-Catppuccin-Dark
+        - $SNAP/share/icons/Colloid-Catppuccin-Light
         - $SNAP/share/icons/Fluent
         - $SNAP/share/icons/Fluent-dark
         - $SNAP/share/icons/Fluent-light
+        - $SNAP/share/icons/Flugir-Colloid
+        - $SNAP/share/icons/Flugir-Colloid-Dark
+        - $SNAP/share/icons/Flugir-Colloid-Light
         - $SNAP/share/icons/FlugirDot
         - $SNAP/share/icons/Flugir-Fluent
         - $SNAP/share/icons/Flugir-Fluent-Dark
@@ -68,6 +74,9 @@ slots:
     interface: content
     source:
       read:
+        - $SNAP/share/themes/Colloid-Compact-Catppuccin
+        - $SNAP/share/themes/Colloid-Dark-Compact-Catppuccin
+        - $SNAP/share/themes/Colloid-Light-Compact-Catppuccin
         - $SNAP/share/gtk2/Fluent
         - $SNAP/share/gtk2/Fluent-compact
         - $SNAP/share/gtk2/Fluent-Dark
@@ -75,9 +84,6 @@ slots:
         - $SNAP/share/gtk2/Fluent-Light
         - $SNAP/share/gtk2/Fluent-Light-compact
         - $SNAP/share/gtk2/Flugir-Budgie
-        - $SNAP/share/gtk2/Flugir-Matcha-azul
-        - $SNAP/share/gtk2/Flugir-Matcha-dark-azul
-        - $SNAP/share/gtk2/Flugir-Matcha-light-azul
         - $SNAP/share/gtk2/Orchis
         - $SNAP/share/gtk2/Orchis-Compact
         - $SNAP/share/gtk2/Orchis-Dark
@@ -100,6 +106,9 @@ slots:
     interface: content
     source:
       read:
+        - $SNAP/share/themes/Colloid-Compact-Catppuccin
+        - $SNAP/share/themes/Colloid-Dark-Compact-Catppuccin
+        - $SNAP/share/themes/Colloid-Light-Compact-Catppuccin
         - $SNAP/share/themes/Fluent
         - $SNAP/share/themes/Fluent-compact
         - $SNAP/share/themes/Fluent-Dark
@@ -107,9 +116,6 @@ slots:
         - $SNAP/share/themes/Fluent-Light
         - $SNAP/share/themes/Fluent-Light-compact
         - $SNAP/share/themes/Flugir-Budgie
-        - $SNAP/share/themes/Flugir-Matcha-azul
-        - $SNAP/share/themes/Flugir-Matcha-dark-azul
-        - $SNAP/share/themes/Flugir-Matcha-light-azul
         - $SNAP/share/themes/Orchis
         - $SNAP/share/themes/Orchis-Compact
         - $SNAP/share/themes/Orchis-Dark
