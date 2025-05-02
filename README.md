@@ -29,6 +29,8 @@ Fluent:
 
 https://github.com/vinceliuice/Fluent-gtk-theme
 
+https://github.com/vinceliuice/Fluent-icon-theme
+
 Papirus:
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
@@ -47,6 +49,14 @@ Bibata:
 
 https://github.com/ful1e5/Bibata_Cursor
 
+Catppuccin cursors:
+
+https://github.com/catppuccin/cursors?ysclid=ma74ckpjyt825838946
+
+GoogleDot cursors:
+
+https://github.com/ful1e5/Google_Cursor
+
 # These are the projects used on Flugir-Budgie:
 
 Qogir:
@@ -58,11 +68,3 @@ https://github.com/vinceliuice/Qogir-icon-theme/tree/master/src/cursors
 Matcha:
 
 https://github.com/vinceliuice/Matcha-gtk-theme
-
-Tela:
-
-https://github.com/vinceliuice/Tela-icon-theme
-
-GoogleDot cursors:
-
-https://github.com/ful1e5/Google_Cursor
