@@ -1,7 +1,7 @@
 name: flugir-budgie-theme
 build-base: core24
 base: bare
-version: '2.2'
+version: '3.0'
 platforms:
   all:
     build-on: [amd64]
@@ -29,31 +29,19 @@ slots:
         - $SNAP/share/icons/Bibata-Original-Classic-Right
         - $SNAP/share/icons/Bibata-Original-Ice
         - $SNAP/share/icons/Bibata-Original-Ice-Right
-        - $SNAP/share/icons/catppuccin-mocha-dark-cursors
-        - $SNAP/share/icons/catppuccin-mocha-light-cursors
+        - $SNAP/share/icons/catppuccin-frappe-dark-cursors
+        - $SNAP/share/icons/catppuccin-frappe-light-cursors
         - $SNAP/share/icons/Colloid-Catppuccin
         - $SNAP/share/icons/Colloid-Catppuccin-Dark
         - $SNAP/share/icons/Colloid-Catppuccin-Light
         - $SNAP/share/icons/Fluent
         - $SNAP/share/icons/Fluent-dark
         - $SNAP/share/icons/Fluent-light
-        - $SNAP/share/icons/Flugir-Colloid
-        - $SNAP/share/icons/Flugir-Colloid-Dark
-        - $SNAP/share/icons/Flugir-Colloid-Light
         - $SNAP/share/icons/FlugirDot
-        - $SNAP/share/icons/Flugir-Fluent
-        - $SNAP/share/icons/Flugir-Fluent-Dark
-        - $SNAP/share/icons/Flugir-Fluent-Light
-        - $SNAP/share/icons/Flugir-Papirus
-        - $SNAP/share/icons/Flugir-Papirus-Dark
-        - $SNAP/share/icons/Flugir-Papirus-Light
         - $SNAP/share/icons/GoogleDot-Black
         - $SNAP/share/icons/GoogleDot-Blue
         - $SNAP/share/icons/GoogleDot-Red
         - $SNAP/share/icons/GoogleDot-White
-        - $SNAP/share/icons/Papirus
-        - $SNAP/share/icons/Papirus-Dark
-        - $SNAP/share/icons/Papirus-Light
         - $SNAP/share/icons/Pocillo
         - $SNAP/share/icons/Pocillo-light
         - $SNAP/share/icons/TelaBudgie
@@ -138,10 +126,9 @@ slots:
         - $SNAP/share/themes/ZorinRed-Light
   
 parts:
-  # FlugirDot cursors, GoogleDot version 2.0.0 of 2022-10-22, Papirus icons extracted in 2025-04-30
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
+    source:
     override-build: |
       snapcraftctl build
       pwd
@@ -150,10 +137,9 @@ parts:
       mv -f $CRAFT_PART_INSTALL/icon-themes/* $CRAFT_PART_INSTALL/share/icons
     stage:
       - share/icons/
-  # Gtk themes, Qogir extracted in 2025-02-24, Fluent version of 2025-04-29, Matcha extracted in 2025-04-30
   gtk-2-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
+    source:
     override-build: |
       snapcraftctl build
       pwd
@@ -164,7 +150,7 @@ parts:
       - share/gtk2/
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-2.2/flugir-budgie-2.2-snapcraft-files.tar.xz
+    source:
     override-build: |
       snapcraftctl build
       pwd
