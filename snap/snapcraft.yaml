@@ -42,8 +42,29 @@ slots:
         - $SNAP/share/icons/GoogleDot-Blue
         - $SNAP/share/icons/GoogleDot-Red
         - $SNAP/share/icons/GoogleDot-White
+        - $SNAP/share/icons/Papirus
+        - $SNAP/share/icons/Papirus-aliz
+        - $SNAP/share/icons/Papirus-Dark
+        - $SNAP/share/icons/Papirus-dark-aliz
+        - $SNAP/share/icons/Papirus-dark-pueril
+        - $SNAP/share/icons/Papirus-dark-sea
+        - $SNAP/share/icons/Papirus-Light
+        - $SNAP/share/icons/Papirus-light-aliz
+        - $SNAP/share/icons/Papirus-light-pueril
+        - $SNAP/share/icons/Papirus-light-sea
+        - $SNAP/share/icons/Papirus-pueril
+        - $SNAP/share/icons/Papirus-sea
         - $SNAP/share/icons/Pocillo
         - $SNAP/share/icons/Pocillo-light
+        - $SNAP/share/icons/Qogir
+        - $SNAP/share/icons/Qogir-Dark
+        - $SNAP/share/icons/Qogir-Light
+        - $SNAP/share/icons/Qogir-Manjaro
+        - $SNAP/share/icons/Qogir-Manjaro-Dark
+        - $SNAP/share/icons/Qogir-Manjaro-Light
+        - $SNAP/share/icons/Qogir-Ubuntu
+        - $SNAP/share/icons/Qogir-Ubuntu-Dark
+        - $SNAP/share/icons/Qogir-Ubuntu-Light
         - $SNAP/share/icons/TelaBudgie
         - $SNAP/share/icons/TelaBudgie-dark
         - $SNAP/share/icons/TelaBudgie-light
@@ -64,9 +85,9 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/themes/Colloid-Compact-Catppuccin
-        - $SNAP/share/themes/Colloid-Dark-Compact-Catppuccin
-        - $SNAP/share/themes/Colloid-Light-Compact-Catppuccin
+        - $SNAP/share/gtk2/Colloid-Compact-Catppuccin
+        - $SNAP/share/gtk2/Colloid-Dark-Compact-Catppuccin
+        - $SNAP/share/gtk2/Colloid-Light-Compact-Catppuccin
         - $SNAP/share/gtk2/Fluent
         - $SNAP/share/gtk2/Fluent-compact
         - $SNAP/share/gtk2/Fluent-Dark
@@ -74,12 +95,27 @@ slots:
         - $SNAP/share/gtk2/Fluent-Light
         - $SNAP/share/gtk2/Fluent-Light-compact
         - $SNAP/share/gtk2/Flugir-Budgie
-        - $SNAP/share/gtk2/Orchis
-        - $SNAP/share/gtk2/Orchis-Compact
-        - $SNAP/share/gtk2/Orchis-Dark
-        - $SNAP/share/gtk2/Orchis-Dark-Compact
-        - $SNAP/share/gtk2/Orchis-Light
-        - $SNAP/share/gtk2/Orchis-Light-Compact
+        - $SNAP/share/gtk2/Flugir-Matcha-aliz
+        - $SNAP/share/gtk2/Flugir-Matcha-azul
+        - $SNAP/share/gtk2/Flugir-Matcha-dark-aliz
+        - $SNAP/share/gtk2/Flugir-Matcha-dark-azul
+        - $SNAP/share/gtk2/Flugir-Matcha-dark-pueril
+        - $SNAP/share/gtk2/Flugir-Matcha-dark-sea
+        - $SNAP/share/gtk2/Flugir-Matcha-light-aliz
+        - $SNAP/share/gtk2/Flugir-Matcha-light-azul
+        - $SNAP/share/gtk2/Flugir-Matcha-light-pueril
+        - $SNAP/share/gtk2/Flugir-Matcha-light-sea
+        - $SNAP/share/gtk2/Flugir-Matcha-pueril
+        - $SNAP/share/gtk2/Flugir-Matcha-sea
+        - $SNAP/share/gtk2/Qogir
+        - $SNAP/share/gtk2/Qogir-Dark
+        - $SNAP/share/gtk2/Qogir-Light
+        - $SNAP/share/gtk2/Qogir-Manjaro
+        - $SNAP/share/gtk2/Qogir-Manjaro-Dark
+        - $SNAP/share/gtk2/Qogir-Manjaro-Light
+        - $SNAP/share/gtk2/Qogir-Ubuntu
+        - $SNAP/share/gtk2/Qogir-Ubuntu-Dark
+        - $SNAP/share/gtk2/Qogir-Ubuntu-Light
         - $SNAP/share/gtk2/ZorinBlue-Dark
         - $SNAP/share/gtk2/ZorinBlue-Light
         - $SNAP/share/gtk2/ZorinGreen-Dark
@@ -106,12 +142,27 @@ slots:
         - $SNAP/share/themes/Fluent-Light
         - $SNAP/share/themes/Fluent-Light-compact
         - $SNAP/share/themes/Flugir-Budgie
-        - $SNAP/share/themes/Orchis
-        - $SNAP/share/themes/Orchis-Compact
-        - $SNAP/share/themes/Orchis-Dark
-        - $SNAP/share/themes/Orchis-Dark-Compact
-        - $SNAP/share/themes/Orchis-Light
-        - $SNAP/share/themes/Orchis-Light-Compact
+        - $SNAP/share/themes/Flugir-Matcha-aliz
+        - $SNAP/share/themes/Flugir-Matcha-azul
+        - $SNAP/share/themes/Flugir-Matcha-dark-aliz
+        - $SNAP/share/themes/Flugir-Matcha-dark-azul
+        - $SNAP/share/themes/Flugir-Matcha-dark-pueril
+        - $SNAP/share/themes/Flugir-Matcha-dark-sea
+        - $SNAP/share/themes/Flugir-Matcha-light-aliz
+        - $SNAP/share/themes/Flugir-Matcha-light-azul
+        - $SNAP/share/themes/Flugir-Matcha-light-pueril
+        - $SNAP/share/themes/Flugir-Matcha-light-sea
+        - $SNAP/share/themes/Flugir-Matcha-pueril
+        - $SNAP/share/themes/Flugir-Matcha-sea
+        - $SNAP/share/themes/Qogir
+        - $SNAP/share/themes/Qogir-Dark
+        - $SNAP/share/themes/Qogir-Light
+        - $SNAP/share/themes/Qogir-Manjaro
+        - $SNAP/share/themes/Qogir-Manjaro-Dark
+        - $SNAP/share/themes/Qogir-Manjaro-Light
+        - $SNAP/share/themes/Qogir-Ubuntu
+        - $SNAP/share/themes/Qogir-Ubuntu-Dark
+        - $SNAP/share/themes/Qogir-Ubuntu-Light
         - $SNAP/share/themes/ZorinBlue-Dark
         - $SNAP/share/themes/ZorinBlue-Light
         - $SNAP/share/themes/ZorinGreen-Dark
