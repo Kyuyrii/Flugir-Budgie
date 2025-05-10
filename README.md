@@ -31,6 +31,8 @@ Papirus:
 
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
+https://github.com/Ste74/papirus-maia-icon-theme
+
 Zorin:
 
 https://github.com/ZorinOS/zorin-desktop-themes/
