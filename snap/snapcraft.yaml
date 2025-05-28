@@ -139,7 +139,7 @@ parts:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-3.1/flugir-budgie-snapcraft-3.1.tar.xz
     organize:
-      usr/share/icons: share/icons
+      icon-themes: share/icons
     prime:
       - share/icons/
 
@@ -147,7 +147,7 @@ parts:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-3.1/flugir-budgie-snapcraft-3.1.tar.xz
     organize:
-      usr/share/themes: share/gtk2
+      gtk-themes: share/gtk2
     prime:
       - share/gtk2/*/gtk-2.0
 
@@ -155,7 +155,7 @@ parts:
     plugin: dump
     source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-3.1/flugir-budgie-snapcraft-3.1.tar.xz
     organize:
-      usr/share/themes: share/themes
+      gtk-themes: share/themes
     prime:
       - share/themes/*/gtk-3.0
       - share/themes/*/gtk-4.0
