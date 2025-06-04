@@ -17,18 +17,6 @@ slots:
     interface: content
     source:
       read:
-        - $SNAP/share/icons/Bibata-Modern-Amber
-        - $SNAP/share/icons/Bibata-Modern-Amber-Right
-        - $SNAP/share/icons/Bibata-Modern-Classic
-        - $SNAP/share/icons/Bibata-Modern-Classic-Right
-        - $SNAP/share/icons/Bibata-Modern-Ice
-        - $SNAP/share/icons/Bibata-Modern-Ice-Right
-        - $SNAP/share/icons/Bibata-Original-Amber
-        - $SNAP/share/icons/Bibata-Original-Amber-Right
-        - $SNAP/share/icons/Bibata-Original-Classic
-        - $SNAP/share/icons/Bibata-Original-Classic-Right
-        - $SNAP/share/icons/Bibata-Original-Ice
-        - $SNAP/share/icons/Bibata-Original-Ice-Right
         - $SNAP/share/icons/catppuccin-frappe-dark-cursors
         - $SNAP/share/icons/catppuccin-frappe-light-cursors
         - $SNAP/share/icons/Colloid-Catppuccin
