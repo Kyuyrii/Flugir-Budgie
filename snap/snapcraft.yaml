@@ -38,15 +38,6 @@ slots:
         - $SNAP/share/icons/Papirus-light-sea
         - $SNAP/share/icons/Papirus-pueril
         - $SNAP/share/icons/Papirus-sea
-        - $SNAP/share/icons/Qogir
-        - $SNAP/share/icons/Qogir-Dark
-        - $SNAP/share/icons/Qogir-Light
-        - $SNAP/share/icons/Qogir-Manjaro
-        - $SNAP/share/icons/Qogir-Manjaro-Dark
-        - $SNAP/share/icons/Qogir-Manjaro-Light
-        - $SNAP/share/icons/Qogir-Ubuntu
-        - $SNAP/share/icons/Qogir-Ubuntu-Dark
-        - $SNAP/share/icons/Qogir-Ubuntu-Light
   gtk-2-themes:
     interface: content
     source:
@@ -73,15 +64,6 @@ slots:
         - $SNAP/share/gtk2/Flugir-Matcha-light-sea
         - $SNAP/share/gtk2/Flugir-Matcha-pueril
         - $SNAP/share/gtk2/Flugir-Matcha-sea
-        - $SNAP/share/gtk2/Qogir
-        - $SNAP/share/gtk2/Qogir-Dark
-        - $SNAP/share/gtk2/Qogir-Light
-        - $SNAP/share/gtk2/Qogir-Manjaro
-        - $SNAP/share/gtk2/Qogir-Manjaro-Dark
-        - $SNAP/share/gtk2/Qogir-Manjaro-Light
-        - $SNAP/share/gtk2/Qogir-Ubuntu
-        - $SNAP/share/gtk2/Qogir-Ubuntu-Dark
-        - $SNAP/share/gtk2/Qogir-Ubuntu-Light
   gtk-3-themes:
     interface: content
     source:
@@ -108,20 +90,11 @@ slots:
         - $SNAP/share/themes/Flugir-Matcha-light-sea
         - $SNAP/share/themes/Flugir-Matcha-pueril
         - $SNAP/share/themes/Flugir-Matcha-sea
-        - $SNAP/share/themes/Qogir
-        - $SNAP/share/themes/Qogir-Dark
-        - $SNAP/share/themes/Qogir-Light
-        - $SNAP/share/themes/Qogir-Manjaro
-        - $SNAP/share/themes/Qogir-Manjaro-Dark
-        - $SNAP/share/themes/Qogir-Manjaro-Light
-        - $SNAP/share/themes/Qogir-Ubuntu
-        - $SNAP/share/themes/Qogir-Ubuntu-Dark
-        - $SNAP/share/themes/Qogir-Ubuntu-Light
   
 parts:
   icon-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-3.1/flugir-budgie-snapcraft-3.1.tar.xz
+    source: 
     organize:
       icon-themes: share/icons
     prime:
@@ -137,7 +110,7 @@ parts:
 
   gtk-3-themes:
     plugin: dump
-    source: https://github.com/Kyuyrii/Flugir-Budgie/releases/download/Flugir-Budgie-3.1/flugir-budgie-snapcraft-3.1.tar.xz
+    source: 
     organize:
       gtk-themes: share/themes
     prime:
