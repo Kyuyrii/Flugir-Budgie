@@ -53,14 +53,6 @@ Pocillo icons:
 
 https://github.com/UbuntuBudgie/pocillo
 
-Bibata:
-
-https://github.com/ful1e5/Bibata_Cursor
-
 Catppuccin cursors:
 
 https://github.com/catppuccin/cursors?ysclid=ma74ckpjyt825838946
-
-GoogleDot cursors:
-
-https://github.com/ful1e5/Google_Cursor
